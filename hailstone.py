@@ -5,7 +5,7 @@
 def hailstone(n):
     """Calculate the number of steps it takes to reach 1 in a Hailstone.
     n (int): the number of steps to reach the hailstone sequence."""
-    if n <= 0
+    if n <= 0:
         return "Error - Input must be positive."
     step = 0
     while n != 1:
